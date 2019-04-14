@@ -119,7 +119,7 @@ predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
 
 # load the input image, resize it, and convert it to grayscale
-image = cv2.imread('example_01.jpeg')
+image = cv2.imread('images/example_01.jpeg')
 image = resize(image, width=500)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
  
